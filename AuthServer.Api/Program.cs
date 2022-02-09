@@ -1,3 +1,4 @@
+using System.Text;
 using AuthServer.Core.Configuration;
 using AuthServer.Core.Models;
 using AuthServer.Core.Repository;
@@ -6,8 +7,10 @@ using AuthServer.Core.UnitOfWork;
 using AuthServer.Data;
 using AuthServer.Data.Repository;
 using AuthServer.Service.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Shared.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -38,6 +41,25 @@ builder.Services.AddIdentity<User, IdentityRole>(opt =>
 
 builder.Services.Configure<CustomTokenOptions>(builder.Configuration.GetSection("TokenOptions"));
 builder.Services.Configure<List<Client>>(builder.Configuration.GetSection("Clients"));
+
+builder.Services.AddAuthentication(opt =>
+{
+   opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+   opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, opt =>
+{
+   var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<CustomTokenOptions>();
+   opt.TokenValidationParameters = new TokenValidationParameters
+   {
+      ValidateIssuer = true,
+      ValidateAudience = true,
+      ValidateLifetime = true,
+      ValidateIssuerSigningKey = true,
+      ValidIssuer = tokenOptions.Issuer,
+      ValidAudience = tokenOptions.Audience[0],
+      IssuerSigningKey = SignService.GetSigningKey(tokenOptions.SecurityKey)
+   };
+});
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
