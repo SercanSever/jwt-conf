@@ -1,0 +1,12 @@
+c:\Users\PROGRAMCI\Desktop\JWT\Shared\bin\Debug\net6.0\Shared.deps.json
+c:\Users\PROGRAMCI\Desktop\JWT\Shared\bin\Debug\net6.0\Shared.dll
+c:\Users\PROGRAMCI\Desktop\JWT\Shared\bin\Debug\net6.0\ref\Shared.dll
+c:\Users\PROGRAMCI\Desktop\JWT\Shared\bin\Debug\net6.0\Shared.pdb
+c:\Users\PROGRAMCI\Desktop\JWT\Shared\obj\Debug\net6.0\Shared.csproj.AssemblyReference.cache
+c:\Users\PROGRAMCI\Desktop\JWT\Shared\obj\Debug\net6.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\PROGRAMCI\Desktop\JWT\Shared\obj\Debug\net6.0\Shared.AssemblyInfoInputs.cache
+c:\Users\PROGRAMCI\Desktop\JWT\Shared\obj\Debug\net6.0\Shared.AssemblyInfo.cs
+c:\Users\PROGRAMCI\Desktop\JWT\Shared\obj\Debug\net6.0\Shared.csproj.CoreCompileInputs.cache
+c:\Users\PROGRAMCI\Desktop\JWT\Shared\obj\Debug\net6.0\Shared.dll
+c:\Users\PROGRAMCI\Desktop\JWT\Shared\obj\Debug\net6.0\ref\Shared.dll
+c:\Users\PROGRAMCI\Desktop\JWT\Shared\obj\Debug\net6.0\Shared.pdb
