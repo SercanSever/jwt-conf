@@ -55,6 +55,7 @@ builder.Services.AddAuthentication(opt =>
       ValidateAudience = true,
       ValidateLifetime = true,
       ValidateIssuerSigningKey = true,
+      ClockSkew = TimeSpan.Zero,
       ValidIssuer = tokenOptions.Issuer,
       ValidAudience = tokenOptions.Audience[0],
       IssuerSigningKey = SignService.GetSigningKey(tokenOptions.SecurityKey)
