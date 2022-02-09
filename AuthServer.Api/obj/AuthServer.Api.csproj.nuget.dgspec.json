@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\AuthServer.Api.csproj": {}
+    "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\AuthServer.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\AuthServer.Api.csproj": {
+    "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\AuthServer.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\AuthServer.Api.csproj",
+        "projectUniqueName": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\AuthServer.Api.csproj",
         "projectName": "AuthServer.Api",
-        "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\AuthServer.Api.csproj",
+        "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\AuthServer.Api.csproj",
         "packagesPath": "C:\\Users\\PROGRAMCI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\obj\\",
+        "outputPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\AuthServer.Service.csproj": {
-                "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\AuthServer.Service.csproj"
+              "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\AuthServer.Service.csproj": {
+                "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\AuthServer.Service.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj": {
+    "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj",
+        "projectUniqueName": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj",
         "projectName": "AuthServer.Core",
-        "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj",
+        "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj",
         "packagesPath": "C:\\Users\\PROGRAMCI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\obj\\",
+        "outputPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -115,8 +115,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj"
+              "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj": {
+                "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj"
               }
             }
           }
@@ -155,14 +155,14 @@
         }
       }
     },
-    "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj": {
+    "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj",
+        "projectUniqueName": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj",
         "projectName": "AuthServer.Data",
-        "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj",
+        "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj",
         "packagesPath": "C:\\Users\\PROGRAMCI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\obj\\",
+        "outputPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -185,8 +185,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj": {
-                "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj"
+              "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj": {
+                "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj"
               }
             }
           }
@@ -233,14 +233,14 @@
         }
       }
     },
-    "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\AuthServer.Service.csproj": {
+    "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\AuthServer.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\AuthServer.Service.csproj",
+        "projectUniqueName": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\AuthServer.Service.csproj",
         "projectName": "AuthServer.Service",
-        "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\AuthServer.Service.csproj",
+        "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\AuthServer.Service.csproj",
         "packagesPath": "C:\\Users\\PROGRAMCI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\obj\\",
+        "outputPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -263,8 +263,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj": {
-                "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj"
+              "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj": {
+                "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj"
               }
             }
           }
@@ -303,14 +303,14 @@
         }
       }
     },
-    "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj": {
+    "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj",
+        "projectUniqueName": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj",
+        "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\PROGRAMCI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\obj\\",
+        "outputPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -344,6 +344,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

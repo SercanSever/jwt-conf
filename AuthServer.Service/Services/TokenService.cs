@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Shared.Configuration;
+using Shared.Services;
 
 namespace AuthServer.Service.Services
 {
