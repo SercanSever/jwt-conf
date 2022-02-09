@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T4DCIkPrJ1jn8ZAmSZQLXnZTb0YNbHrOtfzZhaTgK88uYIfGpwN+DDdaQzoQtV2pR/BZ2Xq5muvHgsHxiABFMQ==",
+  "dgSpecHash": "CxDImotnjlKRbeQJnwBYsAzsQkCOP3VKiJv2v+ekR3ImY0t3eAZFg88GmNYbZUEggSuQQWW0MHaDoVE8lmLcfA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj",
+  "projectFilePath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

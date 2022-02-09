@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj": {}
+    "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj": {}
   },
   "projects": {
-    "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj": {
+    "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj",
+        "projectUniqueName": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj",
         "projectName": "AuthServer.Core",
-        "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj",
+        "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj",
         "packagesPath": "C:\\Users\\PROGRAMCI\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\obj\\",
+        "outputPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj": {
-                "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj"
+              "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj": {
+    "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj",
+        "projectUniqueName": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj",
         "projectName": "AuthServer.Data",
-        "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj",
+        "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\AuthServer.Data.csproj",
         "packagesPath": "C:\\Users\\PROGRAMCI\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\obj\\",
+        "outputPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -104,8 +104,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj": {
-                "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj"
+              "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj": {
+                "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Core\\AuthServer.Core.csproj"
               }
             }
           }
@@ -152,14 +152,14 @@
         }
       }
     },
-    "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj": {
+    "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\PROGRAMCI\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

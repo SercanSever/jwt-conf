@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LBmBIc/KyHMsEbdxI3v26IpADweJO30vE/5tHQijVl4fqzQ1E2YuFRRdBZFZ9dxvJMPpHa7x6xnn6EfdcVR+iw==",
+  "dgSpecHash": "b23TqVrSjUOY7dOrL2dsPKDDoMtS+6+WPOBr6ecOOj4SpxKZLmWlfthKc/+ANvMNHtqQmZ2qdt5cWmeyrPqSbQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\AuthServer.Api.csproj",
+  "projectFilePath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\AuthServer.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PROGRAMCI\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\PROGRAMCI\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

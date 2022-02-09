@@ -182,7 +182,7 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {}
         },
         "build": {
-          "build/net6.0/_._": {}
+          "build/net6.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/6.0.1": {
@@ -2313,6 +2313,7 @@
     "net6.0": [
       "AuthServer.Service >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.2",
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.1",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2324,11 +2325,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\AuthServer.Api.csproj",
+      "projectUniqueName": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\AuthServer.Api.csproj",
       "projectName": "AuthServer.Api",
-      "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\AuthServer.Api.csproj",
+      "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\AuthServer.Api.csproj",
       "packagesPath": "C:\\Users\\PROGRAMCI\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\obj\\",
+      "outputPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -2351,8 +2352,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\AuthServer.Service.csproj": {
-              "projectPath": "c:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\AuthServer.Service.csproj"
+            "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\AuthServer.Service.csproj": {
+              "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\JWT\\AuthServer.Service\\AuthServer.Service.csproj"
             }
           }
         }
@@ -2370,6 +2371,10 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[6.0.2, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "target": "Package",
+            "version": "[6.0.1, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
