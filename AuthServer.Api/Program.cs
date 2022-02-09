@@ -12,6 +12,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Shared.Configuration;
+using Shared.Extensions;
+using Shared.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -42,33 +44,12 @@ builder.Services.AddIdentity<User, IdentityRole>(opt =>
 builder.Services.Configure<CustomTokenOptions>(builder.Configuration.GetSection("TokenOptions"));
 builder.Services.Configure<List<Client>>(builder.Configuration.GetSection("Clients"));
 
-builder.Services.AddAuthentication(opt =>
-{
-   opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-   opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, opt =>
-{
-   var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<CustomTokenOptions>();
-   opt.TokenValidationParameters = new TokenValidationParameters
-   {
-      ValidateIssuer = true,
-      ValidateAudience = true,
-      ValidateLifetime = true,
-      ValidateIssuerSigningKey = true,
-      ClockSkew = TimeSpan.Zero,
-      ValidIssuer = tokenOptions.Issuer,
-      ValidAudience = tokenOptions.Audience[0],
-      IssuerSigningKey = SignService.GetSigningKey(tokenOptions.SecurityKey)
-   };
-});
+var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<CustomTokenOptions>();
+builder.Services.AddCustomTokenAuth(tokenOptions);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-
-
-
 
 
 
