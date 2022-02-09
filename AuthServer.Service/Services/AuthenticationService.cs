@@ -26,7 +26,7 @@ namespace AuthServer.Service.Services
          _unitOfWork = unitOfWork;
          _userRefreshTokenService = userRefreshTokenService;
       }
-      public Response<ClientTokenDto> CreateClientTokenAsync(ClientLoginDto clientLoginDto)
+      public Response<ClientTokenDto> CreateClientToken(ClientLoginDto clientLoginDto)
       {
          var client = _clients.FirstOrDefault(x => x.Id == clientLoginDto.ClientId && x.Secret == clientLoginDto.ClientSecret);
          if (client == null) return Response<ClientTokenDto>.Fail("Client not found", true, 404);
