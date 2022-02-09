@@ -1,10 +1,12 @@
 using AuthServer.Core.Dto;
 using AuthServer.Core.Models;
 using AuthServer.Core.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AuthServer.Api.Controllers
 {
+   [Authorize]
    [Route("api/[controller]")]
    [ApiController]
    public class ProductController : CustomBaseController
